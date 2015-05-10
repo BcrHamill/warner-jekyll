@@ -86,17 +86,17 @@ body {
 h1 {
   background-color: rgba(51, 204, 255, 0.5);
   font-size: 50px;
-  margin: 35px 0;
-  padding: 13px; }
+  line-height: 1.25;
+  padding: 20px; }
 
-.site__navbar {
-  border-bottom: 3px solid #909090; }
+.content h1 {
+  margin: 0; }
 
 .content__container {
   background-color: rgba(255, 255, 255, 0.9);
   box-sizing: border-box;
   color: #777777;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   padding: 20px;
   padding-bottom: 40px; }
   .content__container h2 {
@@ -106,22 +106,37 @@ h1 {
   .content__container p {
     line-height: 1.75; }
 
-.img {
-  border: 5px solid #dbdbdb; }
-
-.fifty-col {
-  width: 46%;
-  float: left; }
-
 .home__portrait {
   background-image: url("../images/alan.png");
   background-size: cover;
+  display: none;
   height: 427px; }
 
-@media only screen and (max-width: 320px) {
-  /* styles for narrow screens */ }
-@media only screen and (max-width: 600px) {
-  .fifty-col {
-    width: 94%; } }
+.img {
+  border: 5px solid #dbdbdb; }
+
+.navbar {
+  margin-bottom: 0;
+  margin-top: 20px; }
+
+.navbar-inner {
+  border-radius: 0; }
+
+@media only screen and (min-width: 724px) {
+  .home__portrait {
+    display: block; }
+
+  .site__navbar {
+    border-bottom: 3px solid #909090; } }
+@media only screen and (min-width: 740px) {
+  .navbar {
+    margin-top: 0; }
+
+  .content__container {
+    margin-top: 20px;
+    margin-bottom: 100px; }
+
+  .content h1 {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
