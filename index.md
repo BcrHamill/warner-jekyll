@@ -4,4 +4,7 @@ title: Alan Warner
 ---
 {% include JB/setup %}
 
-## Heading 
+<div class="home__portrait img" role="img" aria-label="Alan Warner Photograph"></div>
+
+<p class="fifty-col"><span class="text-bold">Alan Warner was born in Oban on the West Coast of Scotland in 1964 and attended Oban High School.</span> His father was a Yorkshireman and his mother from the Isle of Mull, together they were the proprietors of a hotel in Oban in which - during the 1950s - Alan is convinced JG Salinger conducted a love affair. Spooked by the transport and hospitality trades, Alan attended college in London and was then a postgraduate student at the University of</p>
+<p class="fifty-col">Glasgow (1987-88) initially as a History of Art student but changed over to Literature where he wrote a thesis on Joseph Conrad. He has worked at various jobs including a spell at a dry cleaner’s, which was burned down by a prayer candle. His first novel, Morvern Callar, was published to (as they say) acclaim in 1995, and he has been a full-time writer and National Lottery player since.</p>
