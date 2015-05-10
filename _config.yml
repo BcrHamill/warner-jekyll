@@ -11,11 +11,12 @@ highlighter: pygments
 title : Alan Warner 
 tagline: Official 
 author :
-  name : Vicki Cole 
-  email : vicki@capturecadet.com 
-  github : capturecadet
-  twitter : vickiccole 
-  feedburner : feedname
+  first_name : Alan
+  last_name: Warner
+  email : default
+  github : default
+  twitter : default 
+  feedburner : default
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -64,7 +65,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : false
+  ASSET_PATH : /assets 
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
@@ -98,7 +99,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : false 
     google : 
         tracking_id : 'UA-123-12'
     getclicky :

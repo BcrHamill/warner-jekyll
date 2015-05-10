@@ -1,0 +1,32 @@
+body {
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background-image: url('../images/home.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #FFFFFF;
+  font-smoothing: antialiased;
+}
+
+h1 {
+  background-color: rgba(51,204,255,.5);
+  font-size: 50px;
+  margin: 35px 0;
+  padding: 13px;
+  @extend .text-uppercase;
+}
+
+.site__navbar {
+  border-bottom: 3px solid rgb(144, 144, 144);
+}
+
+@media only screen and (max-width: 320px) {
+    /* styles for narrow screens */
+}
+
+@media only screen and (min-width: 1200px) {
+    /* styles for wide screens */
+}
+

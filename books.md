@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Alan Warner 
+title: "Books"
+group: navigation
 ---
 {% include JB/setup %}
-
-## Heading 

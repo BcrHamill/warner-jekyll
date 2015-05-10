@@ -4,7 +4,7 @@
   max-width: 700px; }
 
 .container-narrow > hr {
-  margin: 30px 0; }
+  margin: 15px 0; }
 
 .navbar .nav {
   float: right; }
@@ -64,14 +64,32 @@
   border: 1px solid #4c964d;
   color: #FFF; }
 
+.text-uppercase, h1 {
+  text-transform: uppercase; }
+
 body {
-  font-family: 'Vollkorn', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-image: url("../img/hero-home.png"); }
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background-image: url("../images/home.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #FFFFFF;
+  font-smoothing: antialiased; }
 
-.site__title {
-  text-transform: uppercase; }
+h1 {
+  background-color: rgba(51, 204, 255, 0.5);
+  font-size: 50px;
+  margin: 35px 0;
+  padding: 13px; }
 
-.site__nav {
-  text-transform: uppercase; }
+.site__navbar {
+  border-bottom: 3px solid #909090; }
+
+@media only screen and (max-width: 320px) {
+  /* styles for narrow screens */ }
+@media only screen and (min-width: 1200px) {
+  /* styles for wide screens */ }
 
 /*# sourceMappingURL=style.css.map */
