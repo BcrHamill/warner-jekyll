@@ -1,4 +1,6 @@
 $border: rgb(119,119,119);
+$orange: #FF9933;
+$blue: #FF9933;
 
 body {
   -moz-font-smoothing: antialiased;
@@ -25,11 +27,10 @@ h1 {
   }
 }
 
-.navbar .nav>.active>a {
-  &:hover {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
+
+.navbar .nav>.active>a,
+.navbar .nav>.active>a:hover,
+.navbar .nav>.active>a:focus {
   box-shadow: none;
   -webkit-box-shadow: none;
   background-color: transparent;
@@ -38,17 +39,12 @@ h1 {
 }
 
 .content__container {
-  background-color: rgba(255,255,255,0.9);
   box-sizing: border-box;
   color: $border; 
   margin-bottom: 20px; 
-  padding: 20px;
   padding-bottom: 40px;
   h2 {
     margin-bottom: 20px;
-  }
-  p, div, h2 {
-    margin: 10px;
   }
   p {
     line-height: 1.75;
@@ -57,6 +53,14 @@ h1 {
     border: 5px solid #CCCCCC;
     margin-bottom: 30px;
   }
+}
+
+.content__container--white {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.content__container--inner {
+  padding: 20px;
 }
 
 .home__portrait {
@@ -77,6 +81,10 @@ h1 {
     float: none;
     margin: 0;
     li {
+      &:hover {
+        background-color: transparent;
+      }
+      background-color: transparent;
       border-top: 2px solid #EEEEEE;
       padding: 10px;
       float: none;
@@ -91,6 +99,68 @@ h1 {
   border-radius: 0;
   padding: 0;
 }
+
+.book {
+  background-color: rgba(255,255,255,0.9);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.book__title {
+  margin-top: 0;
+}
+
+.book__heading {
+  font-weight: normal;
+}
+
+.book__quotes {
+  clear:left;
+  .book__quote-title {
+    border-bottom: 2px solid rgb(158, 221, 235);
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+}
+
+.book__quote-source {
+  font-weight: bold;
+}
+
+.book__blurb {
+  margin-left: 233px;
+  padding: 15px;
+  background: #FAFAFA;
+  border-radius: 4px;
+  border: 1px #F2F2F2;
+  color: #4C4C4C;
+  font-style: italic;
+}
+
+.book__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.book__list-item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.book__list-bullet {
+  color: orange;
+  margin-right: 5px;
+}
+
+.book__cover {
+  float:left;
+  margin: 0 20px 20px 0;
+  border-left: 5px solid $orange;
+}
+
+
 
 @media only screen and (max-width: 767px) {
   body {
@@ -126,7 +196,7 @@ h1 {
     float: left;
     margin: 0 0 0 -5px;
   }
-
+  
   .navbar {
     margin-top: 0;
     .nav {
