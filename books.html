@@ -6,7 +6,7 @@ group: navigation
 {% include JB/setup %}
 
 {% for book in site.data.books %}
-<div class="book">
+<div class="book book__listing">
   <h2 class="book-list__title text-light"><a href="{{ book[1].url }}" alt="Link to {{ book[1].url }}">{{ book[1].title | upcase }}</a></h2>
 </div>
 {% endfor %}

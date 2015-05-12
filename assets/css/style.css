@@ -173,7 +173,8 @@ h1 {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   margin-bottom: 20px; }
-  .book .book-list__title {
+  .book .book-list__title,
+  .interview .book-list__title {
     margin: 0; }
 
 .book__title,
@@ -207,6 +208,9 @@ h1 {
   list-style: none;
   margin: 0;
   padding: 0; }
+
+.book__listing {
+  border-right: 5px solid #FF9933; }
 
 .book__list-item {
   margin: 0;
