@@ -4,3 +4,11 @@ title: "Interviews"
 group: navigation
 ---
 {% include JB/setup %}
+
+{% for interview in site.data.interviews %}
+<div class="interview cf">
+  <img src="{{ interview.image }}" alt="{{ interview.title }}" class="interview__image" />
+  <h2 class="interview__title text-light"><a href="{{ interview.link }}">{{ interview.title | upcase}}</a></h2>
+  <h5 class="interview__details">in <span class="text-bold">{{ interview.publication }}</span> on <span class="text-bold">{{ interview.publication_date }}</span></h5>
+</div>
+{% endfor %}

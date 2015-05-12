@@ -13,7 +13,7 @@ group: navigation
     <p class="book__blurb">{{ book.blurb }}</p>
   </div>
   <div class="book__quotes">
-    <h4 class="book__quote-title text-light">PRAISE FOR {{ book.title | upcase }}</h4>
+    <h4 class="book__quote-title text-light">PRAISE FOR {{ book.title | upcase }} ({{ book.publisher }})</h4>
     <ul class="book__list">
       {% for quote in book.quotes %}
       <li class="book__list-item">{{quote.comment}} <span class="book__quote-source">({{ quote.source }})</span></li>

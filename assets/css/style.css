@@ -86,6 +86,12 @@ body {
   color: #FFFFFF;
   font-smoothing: antialiased; }
 
+a {
+  color: #777777; }
+  a:hover {
+    color: #FF9933;
+    text-decoration: none; }
+
 h1 {
   background-color: rgba(51, 204, 255, 0.5);
   font-size: 50px;
@@ -94,6 +100,16 @@ h1 {
 
 .content h1 {
   margin: 0; }
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
 
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
@@ -152,12 +168,14 @@ h1 {
   border-radius: 0;
   padding: 0; }
 
-.book {
+.book,
+.interview {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   margin-bottom: 20px; }
 
-.book__title {
+.book__title,
+.interview__title {
   margin-top: 0; }
 
 .book__heading {
@@ -201,6 +219,46 @@ h1 {
   float: left;
   margin: 0 20px 20px 0;
   border-left: 5px solid #FF9933; }
+
+.interview__details {
+  font-style: italic;
+  font-weight: normal; }
+
+.interview h2 {
+  margin-bottom: 5px; }
+  .interview h2 a {
+    margin-right: 5px; }
+
+.interview__image {
+  float: right;
+  margin-left: 10px;
+  width: 400px;
+  border: 5px solid rgba(204, 204, 204, 0.55); }
+
+.society__box {
+  box-sizing: border-box;
+  width: 46%;
+  height: 305px;
+  float: left;
+  padding: 1.75%;
+  background: red;
+  margin: 1.75%;
+  background-color: rgba(131, 131, 131, 0.09);
+  position: relative; }
+
+.society__description {
+  border-left: 5px solid rgba(255, 153, 51, 0.59);
+  padding-left: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 220px;
+  width: 200px; }
+  .society__description:first-line {
+    font-weight: bold; }
 
 @media only screen and (max-width: 767px) {
   body {
