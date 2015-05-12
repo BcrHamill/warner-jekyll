@@ -122,6 +122,9 @@ h1 {
   background-color: rgba(255,255,255,0.9);
   padding: 20px;
   margin-bottom: 20px;
+  .book-list__title {
+    margin: 0;
+  }
 }
 
 .book__title,

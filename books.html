@@ -7,18 +7,6 @@ group: navigation
 
 {% for book in site.data.books %}
 <div class="book">
-  <img src="{{ book.image_url }}" width="208" alt="Book Image " class="book__cover" />
-  <div>
-    <h2 class="book__title text-light">{{ book.title | upcase}} ({{ book.publication_year }})</h2>
-    <p class="book__blurb">{{ book.blurb }}</p>
-  </div>
-  <div class="book__quotes">
-    <h4 class="book__quote-title text-light">PRAISE FOR {{ book.title | upcase }} ({{ book.publisher }})</h4>
-    <ul class="book__list">
-      {% for quote in book.quotes %}
-      <li class="book__list-item">{{quote.comment}} <span class="book__quote-source">({{ quote.source }})</span></li>
-      {% endfor %}
-    </ul>
-  </div>
+  <h2 class="book-list__title text-light"><a href="{{ book[1].url }}" alt="Link to {{ book[1].url }}">{{ book[1].title | upcase }}</a></h2>
 </div>
 {% endfor %}
