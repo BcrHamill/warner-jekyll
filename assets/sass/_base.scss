@@ -27,7 +27,6 @@ h1 {
   }
 }
 
-
 .navbar .nav>.active>a,
 .navbar .nav>.active>a:hover,
 .navbar .nav>.active>a:focus {
@@ -104,6 +103,9 @@ h1 {
   background-color: rgba(255,255,255,0.9);
   padding: 20px;
   margin-bottom: 20px;
+  .book-list__title {
+    margin: 0;
+  }
 }
 
 .book__title {

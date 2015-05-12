@@ -1,4 +1,6 @@
-- title: "Movern Callar"
+movern:
+  title: "Movern Callar"
+  url: "movern.html"
   image_url: "http://lorempixel.com/g/213/328/"
   publisher: "Vintage"
   publication_year: 1995
@@ -16,7 +18,9 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
     - comment: "Brilliant, tender, a stylistic dazzler"
       source: "Hilary Mantel"
 
-- title: "These Demented Lands"
+demented:
+  title: "These Demented Lands"
+  url: "demented.html"
   image_url: "http://lorempixel.com/g/213/328/"
   publisher: "Vintage"
   publication_year: 1997
@@ -35,7 +39,9 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
     - comment: "Alan Warner has a gift greater than the gift of telling a story. He can make what he chooses to tell us seem like a story we were waiting to hear"
       source: "Observer"
 
-- title: "The Sopranos"
+sopranos:
+  title: "The Sopranos"
+  url: "sopranos.html"
   image_url: "http://lorempixel.com/g/213/328/"
   publisher: "Vintage"
   publication_year: 1998
@@ -52,8 +58,10 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
     - comment: "Compassionate and rioutously funny. It is a long time since I read a novel which had me rocking with laughter"
       source: "The Times"
 
-- title: "The Man Who Walks"
+manwho:
+  title: "The Man Who Walks"
   image_url: "http://lorempixel.com/g/213/328/"
+  url: "manwho.html"
   publisher: "Vintage"
   publication_year: 2002 
   blurb: "After the scandalous theft of of £27,000 from a local pub, a homeless drifter pursues his eccentric uncle, 'The Man Who Walks', up into the Highlands to recover the money. The nephew's frantic, stalled progress and other bizarre diversions form this wickedly hilarious novel."
@@ -69,7 +77,9 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
     - comment: "A triumph of blackly comic modern gothic... Warner's a brilliant writer and his wild imagination is captured in prose of demented lyricism"
       source: "Big Issue"
 
-- title: "The Worms Can Carry Me To Heaven"
+worms:
+  title: "The Worms Can Carry Me To Heaven"
+  url: "worms.html"
   image_url: "http://lorempixel.com/g/213/328/"
   publisher: "Vintage"
   publication_year: 2006 
@@ -88,7 +98,9 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
     - comment: "A savage, surreal and very original imagination"
       source: "Sunday Telegraph"
 
-- title: "The Stars In The Bright Sky"
+stars:
+  title: "The Stars In The Bright Sky"
+  url: "stars.html"
   image_url: "http://lorempixel.com/g/213/328/"
   publisher: "Vintage"
   publication_year: 2010 
@@ -105,8 +117,9 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
     - comment: "Vigorous and uncannily convincing... Readers would be sorry if Warner were to have finished with these characters"
       source: "Daily Telegraph"
 
-
-- title: "The Deadman's Pedal"
+deadman:
+  title: "The Deadman's Pedal"
+  url: "deadman.html"
   image_url: "http://lorempixel.com/g/213/328/"
   publisher: "Vintage"
   publication_year: 2012 
@@ -123,7 +136,9 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
     - comment: "If you still haven’t read it from last year, Alan Warner’s The Deadman’s Pedal was out in paperback in this. Read it"
       source: "Janice Galloway, Scotsman"
 
-- title: "Their Lips Talk of Mischief"
+lips:
+  title: "Their Lips Talk of Mischief"
+  url: "lips.html"
   image_url: "http://lorempixel.com/g/213/328/"
   publisher: "Faber & Faber"
   publication_year: 2014
