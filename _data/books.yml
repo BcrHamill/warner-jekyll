@@ -1,5 +1,6 @@
 movern:
   title: "Movern Callar"
+  questions: true
   url: "movern.html"
   image_url: "assets/images/movern-callar.png"
   publisher: "Vintage"
@@ -20,6 +21,7 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
 
 demented:
   title: "These Demented Lands"
+  questions: true
   url: "demented.html"
   image_url: "assets/images/demented.png"
   publisher: "Vintage"
@@ -41,6 +43,7 @@ demented:
 
 sopranos:
   title: "The Sopranos"
+  questions: true
   url: "sopranos.html"
   image_url: "assets/images/sopranos.png"
   publisher: "Vintage"
@@ -138,6 +141,7 @@ deadman:
 
 lips:
   title: "Their Lips Talk of Mischief"
+  questions: true
   url: "lips.html"
   image_url: "assets/images/lips.png"
   publisher: "Faber & Faber"

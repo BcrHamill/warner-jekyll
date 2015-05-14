@@ -186,11 +186,13 @@ h1 {
 
 .book__quotes {
   clear: left; }
-  .book__quotes .book__quote-title {
-    border-bottom: 2px solid #9eddeb;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding-bottom: 5px; }
+
+.book__subheader {
+  border-bottom: 2px solid #9eddeb;
+  margin: 0;
+  margin-bottom: 25px;
+  padding-bottom: 5px;
+  padding-top: 30px; }
 
 .book__quote-source {
   font-weight: bold; }
