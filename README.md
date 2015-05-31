@@ -38,8 +38,8 @@ The dev site at ```dev.alanwarner.net``` has been provisioned in the same way.
 
 To add deployment remotes do:
 
-git remote add production ssh://comcar1@alanwarner.net/home/comcar1/alanwarner.net/repo/site.git
-git remote add sandbox ssh://comcar1@alanwarner.net/home/comcar1/dev.alanwarner.net/repo/site.git
+* git remote add production ssh://comcar1@alanwarner.net/home/comcar1/alanwarner.net/repo/site.git
+* git remote add sandbox ssh://comcar1@alanwarner.net/home/comcar1/dev.alanwarner.net/repo/site.git
 
 To deploy changes to the site run:
 
