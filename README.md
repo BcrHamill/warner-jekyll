@@ -43,10 +43,6 @@ To add deployment remotes do:
 
 To deploy changes to the site run:
 
-```git push production master```
-
-or
-
-```git push sandbox master```
+```git push production master``` or ```git push sandbox master```
 
 
