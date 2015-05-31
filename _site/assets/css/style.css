@@ -1,0 +1,310 @@
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px; }
+
+.container-narrow > hr {
+  margin: 15px 0; }
+
+.navbar .nav {
+  float: right; }
+
+.navbar-inner {
+  border: 0; }
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+
+.text-uppercase, h1 {
+  text-transform: uppercase; }
+
+.text-bold {
+  font-weight: bold; }
+
+.text-light {
+  font-weight: 200; }
+
+body {
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background-image: url("../images/home.png");
+  background-size: 100%;
+  color: #FFFFFF;
+  font-smoothing: antialiased; }
+
+a {
+  color: #777777; }
+  a:hover {
+    color: #FF9933;
+    text-decoration: none; }
+
+h1 {
+  background-color: rgba(51, 204, 255, 0.5);
+  font-size: 50px;
+  line-height: 1.25;
+  padding: 20px; }
+
+.content h1 {
+  margin: 0; }
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  background-color: transparent;
+  color: #31b1db;
+  font-weight: bold; }
+
+.content__container {
+  box-sizing: border-box;
+  color: #777777;
+  margin-bottom: 20px;
+  padding-bottom: 40px; }
+  .content__container h2 {
+    margin-bottom: 20px; }
+  .content__container p {
+    line-height: 1.75; }
+  .content__container .img {
+    border: 5px solid #CCCCCC;
+    margin-bottom: 30px; }
+
+.content__container--white {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.content__container--inner {
+  padding: 20px; }
+
+.home__portrait {
+  background-image: url("../images/alan.png");
+  background-size: cover;
+  display: none;
+  height: 427px; }
+
+.navbar {
+  margin-bottom: 0;
+  margin-top: 20px; }
+  .navbar .brand {
+    float: none;
+    margin: 0; }
+  .navbar .nav {
+    float: none;
+    margin: 0; }
+    .navbar .nav li {
+      background-color: transparent;
+      border-top: 2px solid #EEEEEE;
+      padding: 10px;
+      float: none; }
+      .navbar .nav li:hover {
+        background-color: transparent; }
+      .navbar .nav li a {
+        padding: 0; }
+
+.navbar-inner {
+  border-radius: 0;
+  padding: 0; }
+
+.book,
+.interview {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin-bottom: 20px; }
+  .book .book-list__title,
+  .interview .book-list__title {
+    margin: 0; }
+
+.book__title,
+.interview__title {
+  margin-top: 0; }
+
+.book__heading {
+  font-weight: normal; }
+
+.book__quotes {
+  clear: left; }
+
+.book__subheader {
+  border-bottom: 2px solid #9eddeb;
+  margin: 0;
+  margin-bottom: 25px;
+  padding-bottom: 5px;
+  padding-top: 30px; }
+
+.book__quote-source {
+  font-weight: bold; }
+
+.book__blurb {
+  margin-left: 233px;
+  padding: 15px;
+  background: #FAFAFA;
+  border-radius: 4px;
+  border: 1px #F2F2F2;
+  color: #4C4C4C;
+  font-style: italic; }
+
+.book__list {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.book__listing {
+  border-right: 5px solid #FF9933; }
+
+.book__list-item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px; }
+
+.book__list-bullet {
+  color: orange;
+  margin-right: 5px; }
+
+.book__cover {
+  float: left;
+  margin: 0 20px 20px 0;
+  border-left: 5px solid #FF9933; }
+
+.interview__details {
+  font-style: italic;
+  font-weight: normal; }
+
+.interview h2 {
+  margin-bottom: 5px; }
+  .interview h2 a {
+    margin-right: 5px; }
+
+.interview__image {
+  float: right;
+  margin-left: 10px;
+  width: 400px;
+  border: 5px solid rgba(204, 204, 204, 0.55); }
+
+.society__box {
+  box-sizing: border-box;
+  width: 46%;
+  height: 305px;
+  float: left;
+  padding: 1.75%;
+  background: red;
+  margin: 1.75%;
+  background-color: rgba(131, 131, 131, 0.09);
+  position: relative; }
+
+.society__description {
+  border-left: 5px solid rgba(255, 153, 51, 0.59);
+  padding-left: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 220px;
+  width: 200px; }
+  .society__description:first-line {
+    font-weight: bold; }
+
+@media only screen and (max-width: 767px) {
+  body {
+    padding: 0 0 0 0; } }
+@media only screen and (min-width: 724px) {
+  .content h1 {
+    margin-top: 20px; }
+
+  .content__container {
+    margin-top: 20px;
+    margin-bottom: 100px; }
+
+  .home__portrait {
+    display: block; }
+
+  .site__navbar {
+    border-bottom: 3px solid #909090; }
+
+  .navbar-inner {
+    padding: 0; }
+
+  .navbar .brand {
+    float: left;
+    margin: 0 0 0 -5px; }
+
+  .navbar {
+    margin-top: 0; }
+    .navbar .nav {
+      float: right;
+      margin: 0 10px 0 0; }
+      .navbar .nav li {
+        float: left;
+        padding: 0;
+        border: 0; }
+        .navbar .nav li:hover {
+          background-color: #E5E5E5; }
+        .navbar .nav li a {
+          float: left;
+          padding: 10px 15px 10px; } }
+
+/*# sourceMappingURL=style.css.map */
