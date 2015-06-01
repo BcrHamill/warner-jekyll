@@ -24,6 +24,8 @@ Site for novelist Alan Warner
 
 # Deploying the Site
 
+Once your changes are made run ```jekyll build``` to output all your new files into the _sites/directory.
+
 The server has been set up with a remote bare push repository and a ```post-receive``` hook that copies the site's files into ```/home/comcar1/alanwarner.net/_site```
 
 The git repo lives at ```/home/comcar1/alanwarner.net/repo/site.git```.
