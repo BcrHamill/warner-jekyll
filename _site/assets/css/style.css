@@ -125,8 +125,6 @@ h1 {
   color: #777777;
   margin-bottom: 20px;
   padding-bottom: 40px; }
-  .content__container h2 {
-    margin-bottom: 20px; }
   .content__container p {
     line-height: 1.75; }
   .content__container .img {
@@ -177,9 +175,16 @@ h1 {
   .interview .book-list__title {
     margin: 0; }
 
+
+.book__awards {
+  margin-top: 5px;
+}
+
 .book__title,
 .interview__title {
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
 
 .book__heading {
   font-weight: normal; }
@@ -204,7 +209,9 @@ h1 {
   border-radius: 4px;
   border: 1px #F2F2F2;
   color: #4C4C4C;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: 20px;
+}
 
 .book__list {
   list-style: none;

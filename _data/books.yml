@@ -1,7 +1,8 @@
-movern:
-  title: "Movern Callar"
+morvern:
+  title: "Morvern Callar"
   questions: true
-  url: "movern.html"
+  url: "morvern.html"
+  awards: "Winner of Somerset Maugham Prize"
   image_url: "assets/images/movern-callar.png"
   publisher: "Vintage"
   publication_year: 1995
@@ -21,6 +22,7 @@ Brutal, erotic, jarringly poetic and rich in a blood-dark humour, Morvern Calla
 
 demented:
   title: "These Demented Lands"
+  awards: "Winner of the Encore Award"
   questions: true
   url: "demented.html"
   image_url: "assets/images/demented.png"
@@ -48,7 +50,7 @@ sopranos:
   image_url: "assets/images/sopranos.png"
   publisher: "Vintage"
   publication_year: 1998
-  blurb: "The choir from Our Lady of Perpetual Succour School for Girls is being bussed to the national finals in the big, big city. And it's an important day for The Sopranos - Orla, Kylah, (Ra)Chell, Amanda Konky and Fionnula (the Cooler) - pub-crawling, shoplifting and body-piercing being the top priorities. Then it's time to lose that competition - lose, because a nuclear sub has just anchored in the bay and, tonight, the Man Trap disco will be full of submariners on shore-leave."
+  blurb: "The choir from Our Lady of Perpetual Succour School for Girls is being bussed to the national finals in the big, big city. And it's an important day for The Sopranos - Orla, Kylah, (Ra)Chell, Manda and Fionnula (the Cooler) - pub-crawling, shoplifting and body-piercing being the top priorities. Then it's time to lose that competition - lose, because a nuclear sub has just anchored in the bay and, tonight, the Man Trap disco will be full of submariners on shore-leave."
   quotes:
     - comment: "In a spill of vivid and corruscating language... Alan Warner has emerged as a writer of great inventiveness" 
       source: "Annie Proulx"
@@ -103,6 +105,7 @@ worms:
 
 stars:
   title: "The Stars In The Bright Sky"
+  awards: "Longlisted for the Man Booker Prize 2010"
   url: "stars.html"
   image_url: "assets/images/stars.png"
   publisher: "Vintage"
@@ -122,6 +125,7 @@ stars:
 
 deadman:
   title: "The Deadman's Pedal"
+  awards: "Winner of the James Tait Black Prize"
   url: "deadman.html"
   image_url: "assets/images/deadman.png"
   publisher: "Vintage"

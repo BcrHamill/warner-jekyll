@@ -2,6 +2,7 @@
   <img src="{{ book.image_url }}" width="208" alt="Book Image " class="book__cover" />
   <div>
     <h2 class="book__title text-light">{{ book.title | upcase}} ({{ book.publication_year }})</h2>
+    <h4 class="book__awards">{{ book.awards }}</h4> 
     <p class="book__blurb">{{ book.blurb }}</p>
   </div>
   <div class="book__quotes">
