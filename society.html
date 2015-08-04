@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Society Pages"
+group: navigation
+---
+{% include JB/setup %}
+
+<div class="content__container content__container--white content__container--inner cf">
+  {% for event in site.data.events %}
+  <div class="society__box">
+    <div class="society__description">{{ event.description }}</div>
+  </div>
+  {% endfor %}
+</div>
